@@ -1,3 +1,11 @@
+:root{
+    --heading-color: green;
+}
+
+*{
+    box-sizing: border-box;
+}
+
 #first-heading{
     color: red;
     text-align: center;
@@ -5,7 +13,33 @@
 }
 
 .heading{
-    color: green;
+    color: var(--heading-color);
     font-size: 30px;
     float:right
+}
+
+.box{
+    width: 100%;
+    height: 120px;
+    background: rgb(50, 32, 151);
+}
+
+.box::before{
+    content: '';
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    border: 2px solid yellow;
+}
+
+h1::first-letter{
+    font-size: 70px;
+}
+h1::first-line{
+    color: blue;
+}
+
+h1::selection{
+    background: red;
 }
