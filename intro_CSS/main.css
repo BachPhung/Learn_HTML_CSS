@@ -22,11 +22,11 @@
     margin:0 20px;
 }
 .box3{
-    margin-top: 20px;
     background-color: brown;
-    padding: 10px 12px;
+    padding: 10px 5px;
     /*border-width: 10px;
     border-style: solid;
     border-color: blueviolet;*/
-    border: 10px solid blue
+    border: 5px solid blue;
+    box-sizing: border-box;
 }
