@@ -2,22 +2,32 @@ html,body{
     margin:0;
 }
 
-.header{
-    width: 100%;
-    height:100vh;
-    background-image: url(https://images.pexels.com/photos/1382731/pexels-photo-1382731.jpeg?cs=srgb&dl=pexels-tu%E1%BA%A5n-ki%E1%BB%87t-jr-1382731.jpg&fm=jpg),url(https://images.pexels.com/photos/8340103/pexels-photo-8340103.jpeg?cs=srgb&dl=pexels-beyza-efe-8340103.jpg&fm=jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    /*border: 20px dashed #ccc;
-    padding:20px;
-    box-sizing: border-box;
-    background-origin: border-box;*/
-    /*background-image: linear-gradient(0,rgba(255,255,0,0.5), rgba(0,0,255,0.5)),url(https://images.pexels.com/photos/1382731/pexels-photo-1382731.jpeg?cs=srgb&dl=pexels-tu%E1%BA%A5n-ki%E1%BB%87t-jr-1382731.jpg&fm=jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    */
-    /*background-image: url(https://media.istockphoto.com/vectors/check-fashion-seamless-pattern-vector-repeat-background-vector-id1170301235);
-    background-size: 100px;*/
+h1{
+    /*position: relative;
+    top:100px;*/
+    margin-top: 150px;
+}
 
+.box{
+    width: 100%;
+    height: 120px;
+    background-color: #333;
+    position: fixed;
+    top:0;
+}
+
+.box-child{
+    /*background-color: rgba(255,255,255,0.5);
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;*/
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background: #fff;
+}
+
+ul{
+    height: 2000px;
 }
